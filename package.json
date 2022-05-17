@@ -6,7 +6,7 @@
   "dependencies": {
     "dotenv": "^6.2.0",
     "netlify-lambda": "^1.6.3",
-    "twilio": "^3.28.1"
+    "twilio": "^3.77.0"
   },
   "devDependencies": {
     "live-server": "^1.2.1",
@@ -17,6 +17,7 @@
     "html:serve": "live-server ./dist",
     "fn:serve": "netlify-lambda serve functions",
     "fn:build": "netlify-lambda build functions",
+    "serve": "netlify-lambda serve functions",
     "build": "npm run fn:build"
   },
   "repository": {
